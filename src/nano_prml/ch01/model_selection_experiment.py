@@ -11,7 +11,6 @@ import numpy as np
 from .model_selection import cross_validate_polynomials
 from .polynomial import fit_least_squares, predict
 
-
 DEGREES = (1, 3, 5, 9)
 
 
