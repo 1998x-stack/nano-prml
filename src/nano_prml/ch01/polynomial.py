@@ -15,7 +15,7 @@ def _vector(values: ArrayLike, name: str) -> NDArray[np.float64]:
 
 def _check_degree(degree: int) -> None:
     if isinstance(degree, (bool, np.bool_)) or not isinstance(degree, (int, np.integer)):
-        raise ValueError("degree must be a nonnegative integer")
+        raise TypeError("degree must be a nonnegative integer")
     if degree < 0:
         raise ValueError("degree must be a nonnegative integer")
 
