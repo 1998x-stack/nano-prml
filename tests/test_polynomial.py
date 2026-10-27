@@ -85,7 +85,8 @@ def test_mse_gradient_central_difference():
 
 @pytest.mark.parametrize("degree", [-1, 1.5, True])
 def test_invalid_degree(degree):
-    with pytest.raises(ValueError, match="degree"):
+    expected_error = ValueError if degree == -1 else TypeError
+    with pytest.raises(expected_error, match="degree"):
         design_matrix([0, 1], degree)
 
 
