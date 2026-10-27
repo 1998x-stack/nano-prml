@@ -1,1 +1,1 @@
-"""Chapter 1 introductory probability and regression examples."""
+"""PRML chapter 1: introduction, probability, and model selection."""

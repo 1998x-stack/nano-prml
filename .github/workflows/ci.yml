@@ -18,6 +18,8 @@ jobs:
       - run: ruff check .
       - run: python -m pytest -q
       - run: python -m nano_prml.ch01.experiment --output artifacts/ch01 --seeds 0 1 2
+      - run: python -m nano_prml.ch01.probability_experiment --output artifacts/ch01/probability --seeds 0 1 2
+      - run: python -m nano_prml.ch01.model_selection_experiment --output artifacts/ch01/model-selection --seeds 0 1 2
       - uses: actions/upload-artifact@v4
         if: always()
         with:
