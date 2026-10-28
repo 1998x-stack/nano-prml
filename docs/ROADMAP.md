@@ -9,6 +9,16 @@
 - 首批只是 Ch.1.1 + 质量基础设施，**不是**完成整本第一章。
 - 任何章节不得以“有 Markdown + 代码文件”替代测试通过的证据。
 
+## Stage 01 三批交付依赖
+
+| 批次 | 内容 | 分支 | 主线发布门禁 |
+| --- | --- | --- | --- |
+| Batch 01 | §1.1 多项式曲线拟合 | `feat/stage-01-foundations` | PR #1 已审阅且 CI 成功，再合并 |
+| Batch 02 | §1.2–1.3 概率与模型选择 | `feat/stage-01-probability-model-selection` | PR #2 基于 Batch 01，复查依赖与 CI |
+| Batch 03 | §1.4–1.6 维度灾难、决策论、信息论 | `feat/stage-01-decision-information` | 本批新增三节完整验证、PNG/JSON、CI/审阅 |
+
+上述三个 PR 采用 stacked 依赖结构；即使 Batch 03 的全部测试通过，也**不等于**此前两批已合并、Chapter 1 已正式发布。Stage 02 进入 Ch.2 时从已发布的主线创建新分支。
+
 | 阶段 | PRML 范围 | 必须交付 |
 |---|---|---|
 | 00 | 目录与规范 | 官方来源、数学验收、实验模板、CI |
