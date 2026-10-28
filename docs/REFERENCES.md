@@ -13,3 +13,14 @@
 **首批原创样例**：Ch.1 `1.1 Polynomial Curve Fitting`，以及增量 `1.2 Probability Theory` 的二元贝叶斯示例和 `1.3 Model Selection` 的 K-fold/LOOCV 实验。全部采用可重现合成数据，无外部下载或第三方数据授权问题。
 
 后续引入原始论文时登记：作者、年份、DOI/arXiv、原文链接、验证的主张、文中使用位置、许可。
+
+## Stage 01 · Batch 03 独立验证来源
+
+| ID | 来源 | 本批用途 | 版权处理 |
+| --- | --- | --- | --- |
+| BOOK-001 | Bishop, *Pattern Recognition and Machine Learning*, Springer, 2006, §§1.4–1.6 | 维度灾难、决策论、信息论节号与概念定位 | 不再分发任何原书正文、图表或习题 |
+| NUMPY-RNG | https://numpy.org/doc/stable/reference/random/generator.html | 默认生成器与固定 seed 随机实验 | 官方 API 引用 |
+| PYTHON-MATH | https://docs.python.org/3/library/math.html#math.lgamma | 高维球体积的 log-Gamma 求值 | 官方 API 引用 |
+| MPL-001 | https://matplotlib.org/stable/users/index.html | 生成原创参数实验图片 | 官方 API 引用 |
+
+所有图表使用程序生成的合成数据；这批未使用额外第三方数据集。概念严格停留在 PRML 原始第 1 章范围内。
