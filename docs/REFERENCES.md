@@ -7,8 +7,9 @@
 | OFFICIAL-002 | https://www.microsoft.com/en-us/research/wp-content/uploads/2016/05/Bishop-PRML-sample.pdf | 官方完整目录、第 8 章样章 | 只链接 |
 | NUMPY-001 | https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html | OLS 数值计算语义 | 官方 API 文档 |
 | NUMPY-002 | https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html | 后验线性求解 | 官方 API 文档 |
+| NUMPY-003 | https://numpy.org/doc/stable/reference/random/generator.html | NumPy 独立实验 RNG、seed 语义 | 官方 API 文档 |
 | PEDAGOGY-001 | https://d2l.ai/ | 可执行教材的组织思想 | 不复制文字/图片/代码 |
 
-**首批原创样例**：Ch.1 `1.1 Polynomial Curve Fitting`；从数据生成器获得所有样本，不需要外部下载数据集。
+**首批原创样例**：Ch.1 `1.1 Polynomial Curve Fitting`，以及增量 `1.2 Probability Theory` 的二元贝叶斯示例和 `1.3 Model Selection` 的 K-fold/LOOCV 实验。全部采用可重现合成数据，无外部下载或第三方数据授权问题。
 
 后续引入原始论文时登记：作者、年份、DOI/arXiv、原文链接、验证的主张、文中使用位置、许可。
